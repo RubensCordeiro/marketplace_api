@@ -1,0 +1,11 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+require:
+  - rubocop-rails
+  - rubocop-minitest
+
+AllCops:
+  NewCops: enable
+# Style cops
+# Style cops
